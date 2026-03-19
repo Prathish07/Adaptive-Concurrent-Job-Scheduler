@@ -1,31 +1,31 @@
-# ⚙️ Adaptive Concurrent Job Scheduler (C++)
+# Adaptive Concurrent Job Scheduler (C++)
 
 A high-performance multi-threaded job scheduling system built in C++ that simulates real-world operating system scheduling behavior with adaptive optimization strategies.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ⚡ Thread Pool with concurrent task execution  
-- 🧠 Multiple Scheduling Algorithms:
+- Thread Pool with concurrent task execution  
+- Multiple Scheduling Algorithms:
   - First Come First Serve (FCFS)
   - Priority Scheduling
   - Shortest Job First (SJF)
-- 🔄 Adaptive Scheduling Strategy (dynamic switching based on system load)
-- 📊 Performance Benchmarking:
+- Adaptive Scheduling Strategy (dynamic switching based on system load)
+- Performance Benchmarking:
   - Latency
   - Throughput
   - Total Execution Time
-- 🧪 Stress-tested with high-load job simulations (1000+ tasks)
+- Stress-tested with high-load job simulations (1000+ tasks)
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 Jobs → Scheduler → Thread Pool → Execution → Benchmarking
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - C++17  
 - Multithreading (`std::thread`)  
@@ -34,11 +34,16 @@ Jobs → Scheduler → Thread Pool → Execution → Benchmarking
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Compile
 
 ```bash
 g++ -std=c++17 src/*.cpp -Iinclude -o build/scheduler.exe
+```
 
+### 2. Run
+
+```bash
 ./build/scheduler.exe
+```
